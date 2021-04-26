@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaft.org">
+<head th:insert="plantillas/plantilla :: head">
+</head>
+<body>
+    <header th:insert="plantillas/plantilla :: header"></header>
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class="col-12  ">
+                <h2 class="text-center">Registro</h2>
+                <form action="">
+                    <input type="text" 
+                    name="userName" 
+                    placeholder="ingrese Nombre Usuario" 
+                    class="form-control mb-1"
+                    >
+                    <input type="password" 
+                    name="password" 
+                    placeholder="ingrese su Clave" 
+                    class="form-control mb-1"
+                    >
+                    <input type="submit" 
+                    class="btn btn-outline-success"
+                    title="Guardar"
+                    >
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer th:insert="plantillas/plantilla :: footer"></footer>
+</body>
+</html>
